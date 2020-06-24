@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(56, 98, 170);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 98, 170, 1) 20%,
+    rgba(136, 217, 252, 1) 100%,
+    rgba(78, 78, 168, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  background-color: #fff;
+  height: 568px;
+  width: 500px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 40px #4e585f;
+}
+
+.title {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  color: #3a99d0;
+  margin-bottom: 30px;
+  padding-top: 35px;
+}
+
+.input {
+  display: block;
+  margin: 0 15% 25px 15%;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid #e4f0f6;
+  padding: 10px 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4e585f;
+  font-size: 1rem;
+}
+::placeholder {
+  color: #b4b4b4;
+  font-size: 0.9rem;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid #3a99d0;
+}
+.invalidInput {
+  color: red;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: none;
+}
+.showError {
+  display: block;
+}
+.checkContainer {
+  position: relative;
+  color: #8c98a0;
+}
+#terms {
+  margin-left: 15%;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  border: #8c98a0;
+}
+
+.label {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 0;
+  right: 35%;
+  font-weight: normal;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: #3a99d0;
+}
+.submitContainer {
+  position: relative;
+  margin: 25px 15%;
+  width: 80%;
+}
+
+.sign-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px 35px;
+  background: #3a99d0;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  box-shadow: 0px 5px 10px #e4f0f6;
+}
+.sign-up:hover {
+  cursor: pointer;
+}
+
+.sign-up:focus {
+  outline: none;
+}
+
+.already-have {
+  position: absolute;
+  top: 0;
+  right: 18%;
+  padding-top: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  color: #8c98a0;
+}
+.footer {
+  margin-top: 115px;
+  text-align: center;
+  background: #3a99d0;
+
+  font-size: 0.7rem;
+  color: #fff;
+}
+.footer h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 15px;
+}
+
+.icons {
+  padding-bottom: 25px;
+}
+
+.signedUpContainer {
+  background-color: #fff;
+  box-shadow: 10px 10px 40px #4e585f;
+  padding: 15px;
+  margin-top: 300px;
+  text-align: center;
+  color: #3a99d0;
+}
+.signedInTitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.tick {
+  font-size: 2rem;
+  color: #3a99d0;
+}

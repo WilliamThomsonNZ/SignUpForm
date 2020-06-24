@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="full-container">
+      <div class="container">
+        <h1 class="title">Sign Up</h1>
+        <div id="invalidFormSubmission" class="invalidInput">
+          Please fill out the remaining fields
+        </div>
+        <form class="sign-in">
+          <input type="text" placeholder="Name" class="input" id="name" />
+          <div id="invalidName" class="invalidInput">
+            Name must be between 2 and 15 characters and must only contain
+            letters
+          </div>
+          <input type="Email" placeholder="Email" class="input" id="email" />
+          <div id="invalidEmail" class="invalidInput">
+            Please enter a valid email address
+          </div>
+          <input
+            type="Password"
+            placeholder="Password"
+            class="input"
+            id="password"
+          />
+          <div id="invalidPassword" class="invalidInput">
+            Password must have at least eight characters, at least one letter
+            and one number
+          </div>
+          <div class="checkContainer">
+            <input type="checkbox" id="terms" />
+            <h2 class="label">
+              Accept the
+              <a href="#" class="loginLink">Terms and Conditions</a>
+            </h2>
+          </div>
+          <div class="submitContainer">
+            <input type="submit" value="Sign Up" class="sign-up" id="signUp" />
+
+            <div class="already-have">
+              <span class="login">
+                Already have an account?
+                <a href="#" class="loginLink">Log in</a>
+              </span>
+            </div>
+          </div>
+        </form>
+        <div class="footer">
+          <h2>Or sign up with:</h2>
+          <div class="icons">
+            <i class="fab fa-facebook-f icon"></i>
+            <i class="fab fa-twitter icon"></i>
+            <i class="fab fa-google-plus-g icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
